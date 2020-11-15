@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  background-image: url("../images/Background-final.png");
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.game-intro {
+  float: left;
+  padding: 20px 100px;
+}
+
+.game-intro p {
+  font-size: 18px;
+}
+
+
+.arrows-img {
+  width: 150px;
+}
+
+body button {
+  font-size: 15px;
+  background-color: darkgray;
+  /* border: 5px solid black; */
+  color: #fff;
+  padding: 20px 25px;
+  border: 3px solid black;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#game-board {
+  float: left;
+  padding: 20px 20px 20px;
+}
+
+#canvas {
+  border: 10px solid black;
+}
+
+.logo {
+  width: 90%;
+  height: 90%;
+}
+
+.instructions {
+  margin-top: 330px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid black;
+  background: white;
+}
+
+.instructions p {
+  font-size: 12px;
+}
+
+.first {
+  padding: 5px 10px 40px 10px;
+  margin: 0px;
+  line-height: 14px;
+}
+
+.second {
+  padding: 5px 10px 10px 10px;
+  margin: 0px;
+  line-height: 14px;
+}
+
+
+.instructions img {
+  width: 70%;
+  height: 70%;
+  padding: 20px;
+}
+

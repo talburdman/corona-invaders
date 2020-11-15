@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Styles/styles.css" />
+  <title>Corona Invaders</title>
+</head>
+
+<body>
+  <div class="game-intro">
+    <div><img src="./images/Logo-CORONA.png" alt="Corona Invaders" class="logo"></div>
+    <br />
+    <button id="start-button">Start Game!</button>
+    <div class="instructions">
+      <div>
+        <p class="first">Use the left and right arrows to control the virus.</p>
+        <p class="second">Use the space bar to shoot.</p>
+      </div>
+      <div class="images">
+        <img src="./images/arrows.png" alt="Keys icon">
+        <img src="./images/spacebar.jpg" alt="Spacebar icon">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="score">
+    <p>Score: <span>0</span></p>
+  </div>
+
+  <div id="game-board">
+    <canvas id="canvas" width="700" height="800"></canvas>
+  </div>
+
+
+  <script src="js/bullets.js"></script>
+  <script src="js/people.js"></script>
+  <script src="js/player.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
